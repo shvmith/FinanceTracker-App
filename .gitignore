@@ -24,4 +24,21 @@ hs_err_pid*
 replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+.kotlin/# IDE folders
+.idea/
+.vscode/
+
+# Build files
+.gradle/
+build/
+**/build/
+
+# Local properties
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java specific
+*.iml
